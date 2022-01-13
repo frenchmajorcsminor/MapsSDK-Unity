@@ -750,7 +750,7 @@ PlayerSettings:
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
-  metroCertificateNotAfter: 00d1ce7761eed701
+  metroCertificateNotAfter: 00aced8ba027d901
   metroApplicationDescription: Samples for Maps SDK, a Microsoft Garage Project.
   wsaImages:
     2031816: Assets/Microsoft.Maps.Unity.Examples/Icon_88x88.png
@@ -769,7 +769,7 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities:
     WindowsStoreApps:
-      EnterpriseAuthentication: False
+      CodeGeneration: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
       Location: True
@@ -803,10 +803,10 @@ PlayerSettings:
       PointOfService: False
       RecordedCallsFolder: False
       Contacts: False
-      InternetClient: True
-      CodeGeneration: False
-      BackgroundMediaPlayback: False
       Proximity: False
+      InternetClient: True
+      BackgroundMediaPlayback: False
+      EnterpriseAuthentication: False
   metroTargetDeviceFamilies:
     Desktop: False
     Holographic: False
